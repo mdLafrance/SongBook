@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "songbook"
+version = "0.1.0"
+description = ""
+authors = ["mdLafrance <maxlafrance97@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+rich = "^13.1.0"
+pydantic = "^1.10.4"
+rst2pdf = "^0.99"
+textract = "^1.6.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
